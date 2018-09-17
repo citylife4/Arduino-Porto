@@ -1,0 +1,32 @@
+[
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "/home/jdv/.arduino15/packages/arduino/hardware/avr/1.6.21/cores/arduino"
+  },
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "/home/jdv/.arduino15/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs"
+  },
+  {
+    "Sourcefile": "/home/jdv/Project/arduino/frequncy_new/build/sketch/frequncy_new.ino.cpp",
+    "Include": "SoftwareSerial.h",
+    "Includepath": "/home/jdv/.arduino15/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src"
+  },
+  {
+    "Sourcefile": "/home/jdv/Project/arduino/frequncy_new/build/sketch/frequncy_new.ino.cpp",
+    "Include": "EEPROM.h",
+    "Includepath": "/home/jdv/.arduino15/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src"
+  },
+  {
+    "Sourcefile": "/home/jdv/Project/arduino/frequncy_new/build/sketch/frequncy_new.ino.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "/home/jdv/.arduino15/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src/SoftwareSerial.cpp",
+    "Include": "",
+    "Includepath": ""
+  }
+]

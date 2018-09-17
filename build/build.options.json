@@ -1,0 +1,10 @@
+{
+  "builtInLibrariesFolders": "/opt/arduino-1.8.5/libraries",
+  "customBuildProperties": "build.path=/home/jdv/Project/arduino/frequncy_new/build,build.warn_data_percentage=75,runtime.tools.avr-gcc.path=/home/jdv/.arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2,runtime.tools.arduinoOTA.path=/home/jdv/.arduino15/packages/arduino/tools/arduinoOTA/1.1.1,runtime.tools.avrdude.path=/home/jdv/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino9",
+  "fqbn": "arduino:avr:nano:cpu=atmega328old",
+  "hardwareFolders": "/opt/arduino-1.8.5/hardware,/home/jdv/.arduino15/packages",
+  "otherLibrariesFolders": "/home/jdv/Arduino/libraries",
+  "runtime.ide.version": "10805",
+  "sketchLocation": "/home/jdv/Project/arduino/frequncy_new/frequncy_new.ino",
+  "toolsFolders": "/opt/arduino-1.8.5/tools-builder,/opt/arduino-1.8.5/hardware/tools/avr,/home/jdv/.arduino15/packages"
+}
