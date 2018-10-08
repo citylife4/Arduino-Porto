@@ -1,4 +1,4 @@
-//#include <I2C_Anything.h>
+ //#include <I2C_Anything.h>
 // /home/jdv/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino9/bin/avrdude -C/home/jdv/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino9/etc/avrdude.conf -v -patmega328p -carduino -P/dev/ttyUSB0 -b57600 -D -Uflash:w:/tmp/arduino_build_508038/frequncy_new.ino.hex:i 
 //#include <RS485_non_blocking.h>
 #include <SoftwareSerial.h>
@@ -12,9 +12,6 @@ const float TIME_PER_BYTE = 1.0 / (BAUD_RATE / 10.0);  // seconds per sending on
 //const unsigned long PACKET_LENGTH = ((sizeof (message) * 2) + 6); // 2 bytes per payload byte plus STX/ETC/CRC
 //const unsigned long PACKET_TIME =  TIME_PER_BYTE * PACKET_LENGTH * 1000000;  // microseconds
 
-// software serial pins
-const byte RX_PIN = 8;
-const byte TX_PIN = 9;
 
 const byte ENABLE_PIN = 4;
 const byte LED_PIN = 13;
@@ -35,6 +32,9 @@ int BUTTON_OUT = 2;
 int working = 1;
 int received ;
 
+// software serial pins
+const byte RX_PIN = 7;
+const byte TX_PIN = 6;
 SoftwareSerial mySerial (RX_PIN, TX_PIN);
 
 
@@ -90,6 +90,7 @@ void loop(){
   //Serial.println(" Amps RMS");
   
   if( AmpsRMS < 1 ) {
+    Serial.write("Opening Manualy");
     mySerial.write("opening_manualy");
     delay(2000);
     digitalWrite(BUTTON_OUT, HIGH);
